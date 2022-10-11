@@ -1,0 +1,33 @@
+{
+  "name": "react-query-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "presentation": "tslide presentation.md"
+  },
+  "keywords": [],
+  "author": "Luka Vidavkovic <luka.vidakovic@microblink.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/react": "2.3.5",
+    "@emotion/react": "11.10.4",
+    "@emotion/styled": "11.10.4",
+    "@tanstack/react-query": "4.10.3",
+    "@tanstack/react-query-devtools": "4.10.3",
+    "framer-motion": "6.5.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.4.2",
+    "tslide": "1.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@vitejs/plugin-react": "2.1.0",
+    "typescript": "4.6.4",
+    "vite": "3.1.0"
+  }
+}

@@ -22,7 +22,7 @@ const FetchingView: FC = () => {
 export const PageReqSuspense: FC = () => {
   return (
     <Box>
-      <Heading as="h1">Async state, success case</Heading>
+      <Heading as="h1">Suspense mode</Heading>
       <Text mb={5}>Refresh page to clean react-query cache</Text>
 
       <SuspenseWrap>
